@@ -8,9 +8,10 @@
         "start": "node server.js",
         "server": "nodemon server.js",
         "client": "npm start --prefix client",
-        "dev": "concurrently \"npm run server\" \"npm run client\""
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "build": "react-scripts build"
     },
-    "author": "Dave Howson",
+    "author": "Paras Garg",
     "license": "MIT",
     "dependencies": {
         "bcryptjs": "^2.4.3",
