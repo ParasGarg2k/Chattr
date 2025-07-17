@@ -1,4 +1,4 @@
 module.exports = {
-  mongoURI: "mongodb://localhost:27017/chat-app",
+  mongoURI: "mongodb+srv://pg:<db_password>@chattr.x5ot7uy.mongodb.net/?retryWrites=true&w=majority&appName=chattr",
   secretOrKey: "secret",
 };
